@@ -1,5 +1,8 @@
 import streamlit as st
 import pint
+import sys
+print(sys.executable)  # Check which Python interpreter is being used
+print(sys.path)        # Check the Python path
 
 # Set page configuration first
 st.set_page_config(page_title="Universal Unit Converter", layout="centered")
